@@ -44,7 +44,7 @@ if (!empty($_POST)) {
     }
   }
   if($verif === false){
-    $info = error("Veuillez renseigner tout les champs", "danger");
+    $message = error("Veuillez renseigner tout les champs", "danger");
   }
 }
 //////////////////////////// Fonction pour la connexion à la base de données //////////////////
